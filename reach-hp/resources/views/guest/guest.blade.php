@@ -16,11 +16,24 @@
     </head>
     <body>
         <div>
-            <div class="header">
-                <div class="company-name">
-                    <h1>株式会社reach</h1>
+            <div class="header text-color-ffffff">
+                <div class="nav">
+                    <h1 class="w6">株式会社reach</h1>
+                    <ul class="w3">
+                        <li>ホーム</li>
+                        <li>事業内容</li>
+                        <li>採用情報</li>
+                        <li>お問い合わせ</li>
+                    </ul>
                 </div>
-                <div class="nav-menu">
+                <p class="w6">一歩も下がらない<br>挑戦者たち</p>
+            </div>
+            <main>
+                {{ $slot }}
+            </main>
+            <div class="footer">
+                <div class="fotter-nav">
+                    <h1>株式会社reach</h1>
                     <ul>
                         <li>ホーム</li>
                         <li>事業内容</li>
@@ -29,9 +42,6 @@
                     </ul>
                 </div>
             </div>
-            <main>
-                {{ $slot }}
-            </main>
         </div>
     </body>
 </html>

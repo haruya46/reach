@@ -1,3 +1,97 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 共通 */
+*{
+    padding: 0;
+    margin: 0;
+}
+.text-color-ffffff{
+    color: #ffffff;
+}
+.w6{
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    font-weight: 900;
+}
+.w3{
+    font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+/* header */
+.header{
+    background-color: black;
+    height: 600px;
+}   
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.nav h1{
+    font-size: 30px;
+}
+.nav ul{
+    display: flex;
+}
+.nav li{
+    padding-left: 40px;
+}
+.header p{
+    max-height: 700px;
+    margin: 7% 4%;
+    font-size: 50px;
+}
+
+/* 経営理念 */
+
+.management{
+    text-align: center;
+}
+.management h2{
+    font-size: 30px;
+    margin-top: 10%;
+    color: #000864;
+}
+
+.management-text{
+    background-color: aqua;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 5%;
+}
+
+.management-img{
+    margin-top: 10%;
+    width: 100%;
+    background-color: #252525;
+    height: 500px;
+}
+
+/* 事業内容 */
+.business{
+    margin-top: 10%;
+}
+.business h2{
+    font-size: 30px;
+    color: #000864;
+    text-align: center;
+}
+.business-sab-title{
+    text-align: center;
+}
+.business-area{
+    margin-top: 5%;
+    background-color: aquamarine;
+    display: flex;
+}
+.business-left{
+    margin-top: 5%;
+}
+.business-left-top{
+    background-color: #000864;
+    width: 100%;
+    color: #ffffff;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+}
