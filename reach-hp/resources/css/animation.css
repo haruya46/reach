@@ -1,0 +1,81 @@
+/* スクロール時下からフェードイン */
+.fadein {
+    opacity: 0;
+    transform: translate(0, 100px);
+    transition: all 1s;
+}
+
+.fadein.active {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* 事業内容 */
+.fadein-right {
+    opacity: 0;
+    transform: translate(100px, 0);
+    transition: all 1s;
+}
+
+.fadein-right.active {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.fadein-left {
+    opacity: 0;
+    transform: translate(-100px, 0);
+    transition: all 1s;
+}
+
+.fadein-left.active {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* 選考フロー */
+.fadein-1 {
+    opacity: 0;
+    transform: translate(0, 100px);
+    transition: all 1s;
+}
+
+.fadein-1.active {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.fadein-2 {
+    opacity: 0;
+    transform: translate(0, 100px);
+    transition: all 3s;
+}
+
+.fadein-2.active {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.fadein-3 {
+    opacity: 0;
+    transform: translate(0, 100px);
+    transition: all 4s;
+}
+
+.fadein-3.active {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.fadein-4 {
+    opacity: 0;
+    transform: translate(0, 100px);
+    transition: all 5s;
+}
+
+.fadein-4.active {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* お知らせ */

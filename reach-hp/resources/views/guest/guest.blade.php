@@ -12,36 +12,15 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/app.css','resources/css/animation.css', 'resources/js/app.js'])
+        
+        <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     </head>
     <body>
-        <div>
-            <div class="header text-color-ffffff">
-                <div class="nav">
-                    <h1 class="w6">株式会社reach</h1>
-                    <ul class="w3">
-                        <li>ホーム</li>
-                        <li>事業内容</li>
-                        <li>採用情報</li>
-                        <li>お問い合わせ</li>
-                    </ul>
-                </div>
-                <p class="w6">一歩も下がらない<br>挑戦者たち</p>
-            </div>
-            <main>
-                {{ $slot }}
-            </main>
-            <div class="footer">
-                <div class="fotter-nav">
-                    <h1>株式会社reach</h1>
-                    <ul>
-                        <li>ホーム</li>
-                        <li>事業内容</li>
-                        <li>採用情報</li>
-                        <li>お問い合わせ</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        {{ $slot }}
     </body>
 </html>
